@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my quote app</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#Quotes">Quotes</a>       
+         <a href="#Categorys">Categorys</a>
+         <a href="#Add Quotes">Add Quotes</a>
+
+
+
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                <a href="#">Link 4  </a>
+            </div>
+        </div>
+    </div>
+    
+    <h1>Hii Sad Souls!</h1>
+    <h3>Lets get motivated</h3>
+
+<div class="search">
+    <input type="text" id="search" placeholder="Search here..." onkeyup="searchQuotes()">
+    <div class="quote-container">
+        <p id="quote"></p>
+        <img src="img.jpeg" alt="pic" class="img">
+    </div>
+        <button onclick="getRandomQuote()">Get Random Quote</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
